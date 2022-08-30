@@ -15,7 +15,7 @@ return new class extends Migration
     public function up()
     {
         Schema::create('permissions', function (Blueprint $table) {
-            $table->autoIncrement('id');
+            $table->increments('id');
             $table->string('code');
             $table->string('descryption');
             AuditableEntity::commonColumn($table);
