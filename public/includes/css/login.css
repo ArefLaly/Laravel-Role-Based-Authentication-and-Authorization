@@ -1,0 +1,15 @@
+body{
+    background-color: #d46700;
+}
+.login-card{
+
+    max-width: 400px;
+    background-color: #fff;
+    padding: 10px;
+    padding-top: 20px;
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    border-radius: 15px;
+}
