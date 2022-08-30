@@ -5,7 +5,6 @@ class AuditableEntity
 {
     public static function commonColumn(Blueprint $table,$noSoftDelete = false)
     {
-        
         $table->unsignedBigInteger("created_by")->nullable();
         $table->unsignedBigInteger("update_by")->nullable();
         $table->unsignedBigInteger("deleted_by")->nullable();
