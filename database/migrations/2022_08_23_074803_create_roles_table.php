@@ -15,7 +15,7 @@ return new class extends Migration
     public function up()
     {
         Schema::create('roles', function (Blueprint $table) {
-            $table->id()->autoIncrement(); 
+            $table->id(); 
             $table->string("roleName");
             AuditableEntity::commonColumn($table,true);
         });

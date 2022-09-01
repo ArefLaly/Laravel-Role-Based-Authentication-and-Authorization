@@ -17,7 +17,7 @@ return new class extends Migration
     public function up()
     {
         Schema::create('user_roles', function (Blueprint $table) {
-            $table->id()->autoIncrement();
+            $table->id();
             $table->foreignIdFor(User::class)->constrained()->onDelete('cascade')->onUpdate('cascade');
             $table->foreignIdFor(Role::class)->constrained()->onDelete('cascade')->onUpdate('cascade');
             AuditableEntity::commonColumn($table,true);

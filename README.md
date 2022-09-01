@@ -1,8 +1,8 @@
-# Role Based Authentication and Authorization - Laravel  `9.x`
+# Role Based Authentication and Authorization - Laravel   `9.x`
 
 A project which manage Role, Permissions and every actions of your Laravel application. A complete solution for Role based Access Control in Laravel.
 
-**Live Demo:** http://laravel-role.herokuapp.com
+**Default Username** 
 ```
 Username - admin@123 
 password - admin@123
@@ -58,9 +58,6 @@ php artisan serve
 5. Assign Multiple Role to user
 6. Check by login with the new credentials.
 7. If you've not enough permission to do any task, you'll get a warning message.
-
-## Learn More & Discussion
-https://devsenv.com/tutorials/laravel-role-permission-management-system-full-example-with-source-code
 
 
 ## Wanna talk with me
